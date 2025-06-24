@@ -1,0 +1,197 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i';
+
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+header.jumbotron {
+    background: #360581 none repeat scroll 0 0;
+    color: #fff;
+}
+
+header.jumbotron h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+header.jumbotron p {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+a.buy-now-button {
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 5px 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+a.buy-now-button:hover {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #e69a22;
+}
+
+#preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.area-titile {
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    color: rgba(0, 0, 0, .6);
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.demo {
+    padding-bottom: 80px;
+    z-index: 99;
+    position: relative;
+}
+
+.demo-link {
+    position: relative;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.demo-link > img {
+    width: 100%;
+    display: block;
+}
+
+.demo-link > p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.demo-link > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    z-index: 5;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.demo-link > a:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+footer.footer-area {
+    background: #360581 none repeat scroll 0 0;
+    padding: 50px 0;
+}
+
+footer p {
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    line-height: 1.7em;
+}
+
+.attribution > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {}
